@@ -8,7 +8,7 @@
 -- In porgress
 
 ### Wawanesa Mutual Insurance | Application Developer
-##### Part-Time Employment &nbsp;&nbsp;&nbsp;| Sept 2020 - ongoing
+##### Part-Time Employment &nbsp;&nbsp;&nbsp;| Sep 2020 - Apr 2021
 ##### Co-op Work Term 1 & 2 &nbsp;&nbsp;| Jan 2020 - Aug 2020
 
 Wawanesa Insurance is continuously implementing improvements to their existing products, introducing new ones to their Insurance offerings as well as migrating their older systems under the Guidewire Insurance Suite to make it consistent across all LOB’s. My duties here included: 
