@@ -5,7 +5,7 @@
 ### Conquest Planning | Software Developer
 ##### Part-Time Employment  &nbsp;&nbsp;| Aug 2021 - ongoing
 ##### Co-op Work Term 3  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;| May 2021 - Aug 2021
-
+-- In porgress
 
 ### Wawanesa Mutual Insurance | Application Developer
 ##### Part-Time Employment &nbsp;&nbsp;&nbsp;| Sept 2020 - ongoing
