@@ -2,14 +2,9 @@
 
 ## INDUSTRY EXPERIENCE
 
-### Conquest Planning | Software Developer
-##### Part-Time Employment  &nbsp;&nbsp;| Aug 2021 - ongoing
-##### Co-op Work Term 3  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;| May 2021 - Aug 2021
--- In porgress
-
 ### Wawanesa Mutual Insurance | Application Developer
-##### Part-Time Employment &nbsp;&nbsp;&nbsp;| Sep 2020 - Apr 2021
-##### Co-op Work Term 1 & 2 &nbsp;&nbsp;| Jan 2020 - Aug 2020
+##### Part-Time Employment | Sep 2020 - Apr 2021
+##### Co-op Work Term 1 & 2 | Jan 2020 - Aug 2020
 
 Wawanesa Insurance is continuously implementing improvements to their existing products, introducing new ones to their Insurance offerings as well as migrating their older systems under the Guidewire Insurance Suite to make it consistent across all LOB’s. My duties here included: 
 * Working as part of an Agile Delivery Team to deliver updates/new additions and collaborating with business and other development teams to ensure consistent and quality releases
@@ -23,7 +18,7 @@ Wawanesa Insurance is continuously implementing improvements to their existing p
     * Java, C/C++, C#, Python, Gosu, GLSL, SQL, Ruby, Assembly, TypeScript/JavaScript
 
 * ### Technologies/Frameworks
-    * OpenGL, PyTorch, OpenCV, OpenMP, React.js, JUnit/GUnit, Git, Jenkins, Splunk, MySQL, Oracle SQL Developer
+    * OpenGL, PyTorch, OpenCV, OpenMP, Angular, React.js, JUnit/GUnit, Git, Jenkins, Splunk, Oracle SQL Developer
 
 ---
 
