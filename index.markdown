@@ -30,9 +30,9 @@ Wawanesa Insurance is continuously implementing improvements to their existing p
 
 ## ADDITIONAL WORK EXPERIENCE
 ### 24-7 Intouch Contact Center | Customer Service Rep.
-##### July 2016 – Dec 2019
-- #### Answered customer calls and used mediation, conflict resolution skills to resolve any issues at hand
-- #### For all calls received, documented issues, resolutions and feedback for quality assurance purposes and communicated with other teams to streamline customer experience
+##### Part-Time Employment | Jul 2016 – Dec 2019
+* Answered customer calls and used mediation, conflict resolution skills to resolve any issues at hand
+* For all calls received, documented issues, resolutions and feedback for quality assurance purposes and communicated with other teams to streamline customer experience
 
 ---
 
