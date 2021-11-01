@@ -37,22 +37,17 @@ Wawanesa Insurance is continuously implementing improvements to their existing p
 ---
 
 ## PROJECTS
-### Miner | Personal Project
-##### https://github.com/akashd50/miner
+### [Miner](https://github.com/akashd50/miner) | Personal Project
 Miner (In-progress) is a 2D game focused on mining, survival, and resource management. Designed and implemented a functioning 2D rigid-body physics and graphics system, from scratch. (Java, OpenGL - GLSL, Android Studio)
 
-### Snowline | Personal Project
-##### https://github.com/akashd50/snowline
+### [Snowline](https://github.com/akashd50/snowline) | Personal Project
 Snowline is a transit app that provides information about the Winnipeg Transit schedule. It gets real-time data from Winnipeg Transit servers and has simple features like seeing nearby stops and their schedule, checking the bus route on the map. (Java, https/json, SQL, Android Studio)
 
-### Logic Builder | Personal Project
-##### https://github.com/akashd50/logic-builder
+### [Logic Builder](https://github.com/akashd50/logic-builder) | Personal Project
 Logic Builder is game that allows the player to build and simulate logic circuits using gates and binary inputs. (Java, OpenGL - GLSL, SQL, Android Studio)
 
-### Project 16 | Software Engg. Course Project
-##### https://github.com/akashd50/project-sixteen
+### [Project 16](https://github.com/akashd50/project-sixteen) | Software Engg. Course Project
 Project 16 is a Quizzing app that allows the user to create quizzes, add questions and share them with other people. (Java, SQL, JUnit, Android Studio)
 
-### IMR | Artificial Intelligence Course Project
-##### https://github.com/akashd50/imr
+### [IMR](https://github.com/akashd50/imr) | Artificial Intelligence Course Project
 IMR is a computer vision application that helps a robot navigate in an environment. It uses particle filtering algorithms to create a map of the surrounding area while trying to navigate the scene. (Python, OpenCV, ROS/Gazebo, PyCharm)
