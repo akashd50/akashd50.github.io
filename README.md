@@ -1,13 +1,13 @@
 # Hosting your resume on Github Pages using Jekyll
 
 ## Purpose
-The instructions below provide a guide on how to host your resume on Github Pages using a static-site generator like Jekyll.
+To provide a guide on how to host your resume on Github Pages using a static-site generator like Jekyll.
 
 ## Prerequisites
 Before you start, its important that you have the prerequisites listed below:
 1. A resume written in markdown. This will be required to follow along with this. If you need help in getting your resume ready, you can check [a good markdown tutorial here](https://www.markdowntutorial.com/). It should be enough to get you started.
-2. Install Git on your computer as it'll be required to work locally with Github repository. You can simply download it for your system here: https://git-scm.com/downloads.
-3. Install Jekyll on your computer as it'll be required as well. The steps on how to install for different operating systems are listed here: https://jekyllrb.com/docs/installation/.
+2. Install Git on your computer as it'll be required to work locally with Git repository. You can simply download it for your system here: https://git-scm.com/downloads.
+3. Install Jekyll on your computer. This isn't an essential but if you'd like to host the website locally, you should install it. The steps on how to install for different operating systems are listed here: https://jekyllrb.com/docs/installation/.
 
 ## Instructions
 In the book, Modern Technical Writing, Andrew E. points out these advantages of having your content on version control systems. Git is the version control tool that was used while creating these instructions. Having your site hosted on a distributed version control makes it incredibly easy to track changes and make new updates. 
@@ -92,10 +92,12 @@ Andrew E. also talks about static websites and the advantages they provide when 
     * Getting started with Jekyll - [Jekyll Installation](https://jekyllrb.com/docs/installation/windows/).
 
 ## Authors and Acknoweldgements
-* Etter, Andrew. Modern Technical Writing, 2016.
-
-Also thanks to my group members: 
-* 
+* Etter, Andrew. Modern Technical Writing: An Introduction to Software Documentation, 2016.
+* Group members: 
+    * Benjamin Zhou 
+    * Syed Ali Ahsen Muhammad Jafry 
+    * Md Jannatul Nayem 
+    * Minh Nam Hai Nguyen 
 
 ## FAQs
 1. **Why is hosting information using markdown to host with Jekyll better than simply hosting html files?**   
@@ -105,7 +107,9 @@ Jekyll provides a lot of built-in templates for creating such static websites qu
 After your select a theme through the Github's theme selector as shown above in the instructions, sometimes it may take a couple minutes for the page to update. Simply close and re-open the webpage, or just try reloading the page after a couple of minutes. If you'd like to learn more about Jekyll themes, [go here](https://jekyllrb.com/docs/themes/).
 
 3. **Why can't I commit my code? Author Identity Unknown Error?**   
-If you see this error, this simply means that you haven't yet configured your local Git with your username and email. So run the following commands which in your project directory:
+If you see this error, this simply means that you haven't yet configured your local Git with your username and email. So run the following commands while in your Git project directory:
     * `git config user.name {your_username}`
     * `git config user.email {your_email_address}`
-    * If you aren't logged into Git in your system, a popup will come up on your screen that'll help you authenticate your Git account. For more information, [go here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
+    * Try commiting your changes again.
+    * If you aren't logged into Git in your system, a popup will come up on your screen that'll help you authenticate your Git account. 
+    * For more information or if the steps above doesn't solve your problem, [check more info here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
