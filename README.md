@@ -100,7 +100,7 @@ Andrew E. also talks about static websites and the advantages they provide when 
     * Minh Nam Hai Nguyen 
 
 ## FAQs
-1. **Why is hosting information using markdown to host with Jekyll better than simply hosting html files?**   
+1. **Why is hosting using markdown with Jekyll better than simply hosting html files?**   
 Jekyll provides a lot of built-in templates for creating such static websites quick and easy. Since the web-content is written in markdown, its easier to move this to a different source and its readable on its own, even without a markdown viewer. On the other hand, writing in html can be quite tedious and there's a lot of special formatting and tags you need to remember, which makes it inconvenient.
 
 2. **Why is my resume theme not updating?**   
