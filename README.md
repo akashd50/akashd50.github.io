@@ -7,7 +7,7 @@ To provide a guide on how to host your resume on Github Pages using a static-sit
 Before you start, its important that you have the prerequisites listed below:
 1. A resume written in markdown. This will be required to follow along with this. If you need help in getting your resume ready, you can check [a good markdown tutorial here](https://www.markdowntutorial.com/). It should be enough to get you started.
 2. Install Git on your computer as it'll be required to work locally with Git repository. You can simply download it for your system here: https://git-scm.com/downloads.
-3. Install Jekyll on your computer. This isn't an essential but if you'd like to host the website locally, you should install it. The steps on how to install for different operating systems are listed here: https://jekyllrb.com/docs/installation/.
+3. Install Jekyll on your computer. The steps on how to install for different operating systems are listed here: https://jekyllrb.com/docs/installation/.
 
 ## Instructions
 In the book, Modern Technical Writing, Andrew E. points out these advantages of having your content on version control systems. Git is the version control tool that was used while creating these instructions. Having your site hosted on a distributed version control makes it incredibly easy to track changes and make new updates. 
