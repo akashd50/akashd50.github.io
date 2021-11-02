@@ -12,24 +12,24 @@ Before you start, its important that you have the prerequisites listed below:
 ## Instructions
 In the book, Modern Technical Writing, Andrew E. points out these advantages of having your content on version control systems. Git is the version control tool that was used while creating these instructions. Having your site hosted on a distributed version control makes it incredibly easy to track changes and make new updates. 
 
-1. Create a Github account   
-    1. If you already have a Github account, please skip this section. Otherwise, follow the steps below to create one:
+1. **Create a Github account**   
+    1. If you already have a Github account, please skip to _Section 2_. Otherwise, follow the steps below to create one:
     2. Visit https://github.com. 
-    3. In the top right section of the page, you should see the option to 'Sign in' or 'Sign up'.
-    4. Click 'Sign up' and the webpage will lead to a section where you'll need to enter some information to create your account, including your email address, a new password and a username.
+    3. In the top right section of the page, you should see the option to `Sign in` or `Sign up`.
+    4. Click `Sign up` and the webpage will lead to a section where you'll need to enter some information to create your account, including your email address, a new password and a username.
     5. In some cases, Github may also require you to verify your email address before anything else. If that happens, please follow the instructions provided by Github to verify your email address.
     6. Github may also ask your some more questions about your interests and such. So, please go through the steps to finish the signup process.
     7. Once you've completed all the steps, your account should be created and we can now move on. 
     8. For more information, check [Github signup help page](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
-2. Create a Github repository
+2. *Create a Github repository*
     1. Visit [Github](https://github.com) and log into your account.
-    2. Click the 'Create Repository' button. 
+    2. Click the `Create Repository` button. 
     3. For a static-site hosted on Github pages, the repository name should be `{your username}.github.io`. You can follow the demo below to see the full process.
     ![Create Repo Demo](/resources/create_repo_github.gif)
 
-3. Create local Git repository and initialize Jekyll project   
-Andrew E. also talks about static websites and the advantages they provide when it comes to hosting content like product documentation or in our case, a resume, which doesn't require any dynamic content. What makes static sites so good is the fact that they don't need any server side code, no dependencies and no dynamically generated content. This makes them fast and pretty much crash resistant. Jekyll is the static-site generator which we use in conjunction with Github Pages for this project. It uses markdown file format and generates static webpage from that. Its light-weight and readable even without being on the webpage so its easy to transfer.
+3. Create local Git repository and initialize the Jekyll project   
+Andrew E. also talks about static websites and the advantages they provide when it comes to hosting content like product documentation or in our case, a resume, which doesn't require any dynamic content. What makes static sites so good is the fact that there's no dynamically generated content which means no server side data dependencies. This makes them fast. Jekyll is the static-site generator which we use in conjunction with Github Pages for this project. It uses markdown file format and generates static webpage from that. Its light-weight and readable even without being on the webpage so its easy to transfer.
  
     1. On your computer, open up a terminal window and navigate to where you want to save this project.
     2. Then run the following commands:
@@ -56,7 +56,7 @@ Andrew E. also talks about static websites and the advantages they provide when 
     4. Update `index.md`:
         1. Remove everything that's in the file since we won't be using the template.
         2. Copy and paste your resume markdown here.   
-        This markdown content will be whats shown on the webpage. Now you can tell how easy it'll be to update it if you ever need to change anything in the future. You'll simply need to update this one file, commit and push your changes and within a few minutes your website will be update. This is exactly what Andrew E. meant by the convenience of using static-site generator like Jekyll to host your website.
+        This markdown content will be whats shown on the webpage. Now you can tell how easy it'll be to update it if you ever need to change anything in the future. You'll simply need to update this one file, commit and push your changes and within a few minutes your website would be updated. This is exactly what Andrew E. meant by the convenience of using a static-site generator like Jekyll to host your website.
 
     5. Update `_config.yaml`:
         1. Update your page title, email address and such here.
@@ -102,4 +102,4 @@ Also thanks to my group members:
 Jekyll provides a lot of built-in templates for creating such static websites quick and easy. Since the web-content is written in markdown, its easier to move this to a different source and its readable on its own, even without a markdown viewer. On the other hand, writing in html can be quite tedious and there's a lot of special formatting and tags you need to remember, which makes it inconvenient.
 
 2. Why is my resume theme not updating?   
-After your select a theme through the Github's theme selector as shown above in the instructions, sometimes it may take a couple minutes for the page to update. Simply close and re-open the webpage, or just try reloading the page after a couple of minutes.
+After your select a theme through the Github's theme selector as shown above in the instructions, sometimes it may take a couple minutes for the page to update. Simply close and re-open the webpage, or just try reloading the page after a couple of minutes. If you'd like to learn more about Jekyll themes, [go here](https://jekyllrb.com/docs/themes/).
