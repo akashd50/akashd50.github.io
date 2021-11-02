@@ -103,3 +103,9 @@ Jekyll provides a lot of built-in templates for creating such static websites qu
 
 2. **Why is my resume theme not updating?**   
 After your select a theme through the Github's theme selector as shown above in the instructions, sometimes it may take a couple minutes for the page to update. Simply close and re-open the webpage, or just try reloading the page after a couple of minutes. If you'd like to learn more about Jekyll themes, [go here](https://jekyllrb.com/docs/themes/).
+
+3. **Why can't I commit my code? Author Identity Unknown Error?**   
+If you see this error, this simply means that you haven't yet configured your local Git with your username and email. So run the following commands which in your project directory:
+    * `git config user.name {your_username}`
+    * `git config user.email {your_email_address}`
+    * If you aren't logged into Git in your system, a popup will come up on your screen that'll help you authenticate your Git account. For more information, [go here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
