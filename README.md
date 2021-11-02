@@ -22,13 +22,13 @@ In the book, Modern Technical Writing, Andrew E. points out these advantages of 
     7. Once you've completed all the steps, your account should be created and we can now move on. 
     8. For more information, check [Github signup help page](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
-2. *Create a Github repository*
+2. **Create a Github repository**
     1. Visit [Github](https://github.com) and log into your account.
     2. Click the `Create Repository` button. 
     3. For a static-site hosted on Github pages, the repository name should be `{your username}.github.io`. You can follow the demo below to see the full process.
     ![Create Repo Demo](/resources/create_repo_github.gif)
 
-3. Create local Git repository and initialize the Jekyll project   
+3. **Create local Git repository and initialize the Jekyll project**   
 Andrew E. also talks about static websites and the advantages they provide when it comes to hosting content like product documentation or in our case, a resume, which doesn't require any dynamic content. What makes static sites so good is the fact that there's no dynamically generated content which means no server side data dependencies. This makes them fast. Jekyll is the static-site generator which we use in conjunction with Github Pages for this project. It uses markdown file format and generates static webpage from that. Its light-weight and readable even without being on the webpage so its easy to transfer.
  
     1. On your computer, open up a terminal window and navigate to where you want to save this project.
@@ -43,7 +43,7 @@ Andrew E. also talks about static websites and the advantages they provide when 
         4. `git push -u origin master`
         ![Git demo](/resources/create_repo_local.gif)
 
-4. Update Jekyll files with your own information
+4. **Update Jekyll files with your own information**
     1. Jekyll, by default uses a template called `minima` and creates a bunch of extra files that you won't need in the beginning, so lets clean that up. 
     2. Delete the `_posts` directory, `about.md` file and, `404.html`.
     3. Update `Gemfile`:
@@ -63,21 +63,21 @@ Andrew E. also talks about static websites and the advantages they provide when 
         2. Update the line that starts with `theme` to `theme: jekyll-theme-slate`.   
         Jekyll comes with a bunch of pre-loaded themes which you can apply to your website with a few clicks. You'll see how to do that in _Section 7_ of these instructions.
 
-5. View website locally
+5. **View website locally**
     1. Run the following commands:
         1. `bundle install`
         2. `bundle update`
         3. `bundle exec jekyll serve`
     2. Visit http://127.0.0.1:4000/.
 
-6. View website on Github
+6. **View website on Github**
     1. Commit and push your changes to Github. Run the following commands:
         1. `git add .` 
         2. `git commit -m "{commit_message}"`
         3. `git push`
     2. Visit `{your_username}.github.io` and your website should be there.
 
-7. Changing the website theme
+7. **Changing the website theme**
     1. Navigate to your Github repository.
     2. Click on `Settings` from the top menu bar.
     3. Click on `Pages`, from the left menu bar.
@@ -86,7 +86,7 @@ Andrew E. also talks about static websites and the advantages they provide when 
     6. The demo below showcases this:
     ![Change theme](/resources/change_theme.gif)
 
-8. More resources:
+8. **More resources:**
     * [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter.
     * Getting started with Markdown - [Markdown Tutorial](https://www.markdowntutorial.com/).
     * Getting started with Jekyll - [Jekyll Installation](https://jekyllrb.com/docs/installation/windows/).
@@ -98,8 +98,8 @@ Also thanks to my group members:
 * 
 
 ## FAQs
-1. Why is hosting information using markdown to host with Jekyll better than simply hosting html files?   
+1. **Why is hosting information using markdown to host with Jekyll better than simply hosting html files?**   
 Jekyll provides a lot of built-in templates for creating such static websites quick and easy. Since the web-content is written in markdown, its easier to move this to a different source and its readable on its own, even without a markdown viewer. On the other hand, writing in html can be quite tedious and there's a lot of special formatting and tags you need to remember, which makes it inconvenient.
 
-2. Why is my resume theme not updating?   
+2. **Why is my resume theme not updating?**   
 After your select a theme through the Github's theme selector as shown above in the instructions, sometimes it may take a couple minutes for the page to update. Simply close and re-open the webpage, or just try reloading the page after a couple of minutes. If you'd like to learn more about Jekyll themes, [go here](https://jekyllrb.com/docs/themes/).
