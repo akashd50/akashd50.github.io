@@ -27,21 +27,23 @@ In the book, Modern Technical Writing, Andrew E. points out these advantages of 
     2. Click the `Create Repository` button. 
     3. For a static-site hosted on Github pages, the repository name should be `{your username}.github.io`. You can follow the demo below to see the full process.
     ![Create Repo Demo](/resources/create_repo_github.gif)
+    *Create Github repository*
 
 3. **Create local Git repository and initialize the Jekyll project**   
 Andrew E. also talks about static websites and the advantages they provide when it comes to hosting content like product documentation or in our case, a resume, which doesn't require any dynamic content. What makes static sites so good is the fact that there's no dynamically generated content which means no server side data dependencies. This makes them fast. Jekyll is the static-site generator which we use in conjunction with Github Pages for this project. It uses markdown file format and generates static webpage from that. Its light-weight and readable even without being on the webpage so its easy to transfer.
  
     1. On your computer, open up a terminal window and navigate to where you want to save this project.
-    2. Then run the following commands:
-        1. `git init {repo_name_of_your_choice}`
-        2. `cd {repo_name_of_your_choice}`
-        3. `jekyll new --skip-bundle .`
+    2. Then run the following commands:   
+        `git init {repo_name_of_your_choice}`   
+        `cd {repo_name_of_your_choice}`   
+        `jekyll new --skip-bundle .`   
     3. Next, sync your local Git directory with the Github repository you created earlier:
         1. `git add .`
         2. `git commit -m "Initial Setup"`
         3. `git remote add origin https://github.com/{your_username}/{your_username}.github.io.git`
         4. `git push -u origin master`
         ![Git demo](/resources/create_repo_local.gif)
+        *Create local Git repo and initialize Jekyll project*
 
 4. **Update Jekyll files with your own information**
     1. Jekyll, by default uses a template called `minima` and creates a bunch of extra files that you won't need in the beginning, so lets clean that up. 
@@ -52,7 +54,8 @@ Andrew E. also talks about static websites and the advantages they provide when 
         3. Add `gem "webrick"` under `group :jekyll_plugins do`
         4. Save and close the file.  
         5. If you need clarification, follow the demo below.
-            ![Gem file update](/resources/gem_file_edit_final.gif "Logo Title Text 1")
+            ![Gem file update](/resources/gem_file_edit_final.gif)
+            *Update Jekyll Gemfile*
     4. Update `index.md`:
         1. Remove everything that's in the file since we won't be using the template.
         2. Copy and paste your resume markdown here.   
@@ -85,7 +88,7 @@ Andrew E. also talks about static websites and the advantages they provide when 
     5. You will be navigated to the themes page, where you can scroll through different themes and select a new one for your webpage.
     6. The demo below showcases this:
     ![Change theme](/resources/change_theme.gif)
-
+    *Change website theme*
 8. **More resources:**
     * [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter.
     * Getting started with Markdown - [Markdown Tutorial](https://www.markdowntutorial.com/).
